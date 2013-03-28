@@ -26,6 +26,16 @@ end
 
 namespace '/api' do
   namespace '/users' do
+
+    get '/anonymous' do
+      content_type 'application/json'
+      load_fixture("users_anonymous.yml").to_json
+    end
+
+    get '/sign_id' do
+      content_type 'application/json'
+      load_fixture("users_sign_in.yml").to_json
+    end
     
     get '/:id/recommendations' do
       content_type 'application/json'
@@ -55,15 +65,6 @@ namespace '/api' do
       status 200
     end
 
-    get '/anonymous' do
-      content_type 'application/json'
-      load_fixture("users_anonymous.yml").to_json
-    end
-
-    get '/sign_id' do
-      content_type 'application/json'
-      load_fixture("users_sign_in.yml").to_json
-    end
   end
 
   get '/products/search' do
