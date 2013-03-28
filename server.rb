@@ -47,11 +47,11 @@ namespace '/api' do
       load_fixture("users_products_search.yml")[page].to_json
     end
 
-    get '/:id/products/add' do
+    post '/:id/products' do
       status 201
     end
 
-    delete '/:id/products/:product_id/delete' do
+    delete '/:id/products/:product_id' do
       status 200
     end
 
@@ -60,13 +60,15 @@ namespace '/api' do
       load_fixture("users_anonymous.yml").to_json
     end
 
-    get '/authenticate' do
+    get '/sign_id' do
       content_type 'application/json'
-      load_fixture("users_authenticate.yml").to_json
+      load_fixture("users_sign_in.yml").to_json
     end
   end
+
   get '/products/search' do
     content_type 'application/json'
     load_fixture("products_search.yml")[page].to_json
   end
+
 end
