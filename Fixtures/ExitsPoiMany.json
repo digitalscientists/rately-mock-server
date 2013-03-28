@@ -1,0 +1,544 @@
+[
+{
+    "id": "4ae7ac2bf964a5203bad21e3",
+    "name": "Starbucks Alpharetta",
+    "location": {
+      "address": "5575 Windward Parkway", 
+      "lat": 34.087441,
+      "lng": -84.264657,
+      "distance": 0.21514369317855242,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "hours":[
+        {
+            "close":{
+                "day":0,
+                "time":"1900"
+            },
+            "open":{
+                "day":0,
+                "time":"1000"
+            }
+        },
+        {
+            "close":{
+                "day":1,
+                "time":"2100"
+            },
+            "open":{
+               "day":1,
+               "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":2,
+                "time":"2100"
+            },
+            "open":{
+                "day":2,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":3,
+                "time":"2100"
+            },
+            "open":{
+                "day":3,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":4,
+                "time":"2100"
+            },
+            "open":{
+                "day":4,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":5,
+                "time":"2100"
+            },
+            "open":{
+                "day":5,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":6,
+                "time":"2100"
+            },
+            "open":{
+                "day":6,
+                "time":"0900"
+            }
+        }
+    ],
+    "gas_prices": null,
+    "services": null,
+    "phone": "7707775955",
+    "business_name": "Starbucks",
+    "image": "http://174.129.14.179/system/images/4d90fdc0f892f36b9a00001c/original/staybridge.png",
+    "category_id": "4d4b7105d754a06374d81259",
+    "category_image": "food/steakhouse.png",
+    "twitter_name": "starbucks",
+    "tweet": {
+        "text" : "Starbucks has the best coffee",
+        "id": "290191519523151872"
+    },
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "google_rating": 4.6,
+    "google_url": "https://plus.google.com/111840715355681175070/about?hl=en-US",
+    "google_id" : "bbbcdab3319cdda3ac0a6b97d2f380c710a43cca",
+    "reviews":[
+    {
+      "id": "1",
+      "date": "a month ago",
+      "type": "roadninja",
+      "author": "jj",
+      "text": "Clean restrooms!",
+      "rating": 5,
+      "image": "http://174.129.14.179/images/reviews-default.png"
+    },
+    {
+      "id": "2",
+      "date": "2 weeks ago",
+      "type": "foursquare",
+      "author": "jj",
+      "text": "Clean restrooms!",
+      "image": "http://174.129.14.179/images/reviews-default.png"
+    },
+    {
+      "id":"3",
+      "date": "a month ago",
+      "type": "google",
+      "author": "jj",
+      "text": "Clean restrooms!",
+      "image": "http://174.129.14.179/images/reviews-default.png",
+      "aspects": [
+        {
+         "rating": 3,
+         "type": "quality"
+        },
+        {
+         "rating": 1,
+         "type": "food"
+        }
+       ]
+    }
+    ],
+    "photos": [],
+    "website": "http://starbucks.com",
+    "promotion": [
+      {
+        "id": "50b37af241d9071795000008",
+        "promo_id": "Hokkaido0002",
+        "text": "$5 OFF $25 or $10 OFF $50!",
+        "image":   "http://174.129.14.179/system/images/50b37af241d9071795000008/original/HokkaidoPromo2.jpg",
+        "redeemable": true
+    }
+    ]
+},
+  {
+    "id": "4c34b3cbed37a59335506f03",
+    "name": "Qdoba Mexican Grill",
+    "location": {
+      "address": "5530 Windward Parkway",
+      "lat": 34.089355,
+      "lng": -84.264419,
+      "distance": 0.2870106517080842,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "business_name": "qpqpqpqpqpqpqp",
+    "hours":[
+        {
+            "close":{
+                "day":6,
+                "time":"1900"
+            },
+            "open":{
+                "day":0,
+                "time":"1000"
+            }
+        },
+        {
+            "close":{
+                "day":0,
+                "time":"2100"
+            },
+            "open":{
+               "day":1,
+               "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":1,
+                "time":"2100"
+            },
+            "open":{
+                "day":2,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":2,
+                "time":"2100"
+            },
+            "open":{
+                "day":3,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":3,
+                "time":"2100"
+            },
+            "open":{
+                "day":4,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":4,
+                "time":"2100"
+            },
+            "open":{
+                "day":5,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":5,
+                "time":"2100"
+            },
+            "open":{
+                "day":6,
+                "time":"0900"
+            }
+        }
+    ],
+    "gas_prices": null,
+    "services": null,
+    "phone": "7703460087",
+    "image": "http://174.129.14.179/system/images/4d8003d3f892f30140000006/original/Qdoba.png",
+    "category_id": "4d4b7105d754a06374d81259",
+    "category_image": "food/mexican.png",
+    "twitter_name": "QdobaMexGrill",
+    "tweet": null,
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "foursquare_id": "4ca96966a6e08cfa412c9994",
+    "google_rating": 4.6,
+    "google_url": null,
+    "google_id" : "bbbcdab3319cdda3ac0a6b97d2f380c710a43cca",
+    "reviews": null,
+    "photos": [
+     "https://irs2.4sqi.net/img/general/width115/1388998_5ee7oYTnGlPFfNwr-pWUqKEayqkdPYA5wcdh6bQQ3R8.jpg",
+       "https://irs2.4sqi.net/img/general/width115/1388998_5ee7oYTnGlPFfNwr-pWUqKEayqkdPYA5wcdh6bQQ3R8.jpg",
+       "https://irs2.4sqi.net/img/general/width115/1388998_5ee7oYTnGlPFfNwr-pWUqKEayqkdPYA5wcdh6bQQ3R8.jpg",
+       "https://irs2.4sqi.net/img/general/width115/1388998_5ee7oYTnGlPFfNwr-pWUqKEayqkdPYA5wcdh6bQQ3R8.jpg",
+       "https://irs2.4sqi.net/img/general/width115/1388998_5ee7oYTnGlPFfNwr-pWUqKEayqkdPYA5wcdh6bQQ3R8.jpg" 
+    ],
+    "website": null,
+    "promotion": [
+    {
+        "id": "50b37af241d9071795000008",
+        "promo_id": "Hokkaido0002",
+        "text": "$5 OFF $25 or $10 OFF $50!",
+        "image":   "http://174.129.14.179/system/images/50b37af241d9071795000008/original/HokkaidoPromo2.jpg",
+        "redeemable": false
+    }]
+  },
+  {
+    "id": "4c085300009a0f472500e6bf",
+    "name": "Exxon",
+    "location": {
+      "address": "13020 Morris Road",
+      "lat": 34.096924,
+      "lng": -84.260507,
+      "distance": 0.9208841832119329,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "hours":[
+        {
+            "close":{
+                "day":1,
+                "time":"1900"
+            },
+            "open":{
+                "day":0,
+                "time":"1000"
+            }
+        },
+        {
+            "close":{
+                "day":2,
+                "time":"2100"
+            },
+            "open":{
+               "day":1,
+               "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":3,
+                "time":"2100"
+            },
+            "open":{
+                "day":2,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":4,
+                "time":"2100"
+            },
+            "open":{
+                "day":3,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":5,
+                "time":"2100"
+            },
+            "open":{
+                "day":4,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":6,
+                "time":"2100"
+            },
+            "open":{
+                "day":5,
+                "time":"0900"
+            }
+        },
+        {
+            "close":{
+                "day":0,
+                "time":"2100"
+            },
+            "open":{
+                "day":6,
+                "time":"0900"
+            }
+        }
+    ],
+    "gas_prices": {
+      "1": {
+        "price": "3.999",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "3": {
+        "price": "3.299",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "4": {
+        "price": "3.499",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "5": {
+        "price": "3.699",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      }
+    },
+    "services": "000000000000000000001000000000",
+    "phone": "6783661400",
+    "image": null,
+    "category_id": "4bf58dd8d48988d113951735",
+    "category_image": "shops/gas.png",
+    "twitter_name": null,
+    "tweet": null,
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "google_rating": 4.6,
+    "google_url": "https://plus.google.com/111840715355681175070/about?hl=en-US",
+    "google_id" : "bbbcdab3319cdda3ac0a6b97d2f380c710a43cca",
+    "reviews": null,
+    "photos": [], 
+    "website": "http://www.exxonmobil.com",
+    "promotion": null
+  },
+  {
+    "id": "2c085300009a0f472500e6bf",
+    "name": "Test1",
+    "location": {
+      "address": "13020 Morris Road",
+      "lat": 34.096924,
+      "lng": -84.260507,
+      "distance": 0.9208841832119329,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "hours":null,
+    "gas_prices": {
+      "1": {
+        "price": "3.999",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "3": {
+        "price": "3.299",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "4": {
+        "price": "3.499",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "5": {
+        "price": "3.699",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      }
+    },
+    "services": "000000000000000000001000000000",
+    "phone": "6783661400",
+    "image": null,
+    "category_id": "4bf58dd8d48988d113951735",
+    "category_image": "shops/gas.png",
+    "twitter_name": null,
+    "tweet": null,
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "google_rating": 4.6,
+    "google_url": "https://plus.google.com/111840715355681175070/about?hl=en-US",
+    "google_id" : "bbbcdab3319cdda3ac0a6b97d2f380c710a43cca",
+    "reviews": null,
+    "photos": [], 
+    "website": null,
+    "promotion": null
+  },
+  {
+    "id": "3c085300009a0f472500e6bf",
+    "name": "Test2",
+    "location": {
+      "address": "13020 Morris Road",
+      "lat": 34.096924,
+      "lng": -84.260507,
+      "distance": 0.9208841832119329,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "hours":null,
+    "gas_prices": {
+      "1": {
+        "price": "3.999",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "3": {
+        "price": "3.299",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "4": {
+        "price": "3.499",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "5": {
+        "price": "3.699",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      }
+    },
+    "services": "000000000000000000001000000000",
+    "phone": "6783661400",
+    "image": null,
+    "category_id": "4bf58dd8d48988d113951735",
+    "category_image": "shops/gas.png",
+    "twitter_name": null,
+    "tweet": null,
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "google_rating": 4.6,
+    "google_url": "https://plus.google.com/111840715355681175070/about?hl=en-US",
+    "google_id" : null,
+    "reviews": null,
+    "photos": [], 
+    "website": null,
+    "promotion": null
+  },
+  {
+    "id": "5c085300009a0f472500e6bf",
+    "name": "Test3",
+    "location": {
+      "address": "13020 Morris Road",
+      "lat": 34.096924,
+      "lng": -84.260507,
+      "distance": 0.9208841832119329,
+      "postalCode": "30004",
+      "city": "Alpharetta",
+      "state": "GA",
+      "country": "US"
+    },
+    "hours":null,
+    "gas_prices": {
+      "1": {
+        "price": "3.999",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "3": {
+        "price": "3.299",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "4": {
+        "price": "3.499",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      },
+      "5": {
+        "price": "3.699",
+        "updated_at": "2013-01-30 00:30:39 UTC"
+      }
+    },
+    "services": "000000000000000000001000000000",
+    "phone": "6783661400",
+    "image": null,
+    "category_id": "4bf58dd8d48988d113951735",
+    "category_image": "shops/gas.png",
+    "twitter_name": null,
+    "tweet": null,
+    "foursquare_checkins": 12,
+    "foursquare_tips": 2,
+    "foursquare_users": 5,
+    "google_rating": 4.6,
+    "google_url": "https://plus.google.com/111840715355681175070/about?hl=en-US",
+    "google_id" : "bbbcdab3319cdda3ac0a6b97d2f380c710a43cca",
+    "reviews": null,
+    "photos": [], 
+    "website": null,
+    "promotion": null
+  }
+]
