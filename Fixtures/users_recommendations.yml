@@ -1,0 +1,11 @@
+products:
+  - id: 1
+    title: Mass Effect
+  - id: 2
+    title: Mass Effect 2
+categories:
+  -
+    [sci-fi, video games]
+colors:
+  -
+    ['#f00', '#00f', '#ff0']
