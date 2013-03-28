@@ -11,8 +11,9 @@ Usage
 API
 ---
 ### creates anonymous user
-> method: get 
-> path: /api/users/anonymous
+method: get
+
+path: /api/users/anonymous
 
 ### sign in user
 method: get 
