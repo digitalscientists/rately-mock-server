@@ -15,38 +15,38 @@ method: get
 path: /api/users/anonymous  
 
 ### sign in user
-method: get 
-path: /api/users/sign_in
+method: get   
+path: /api/users/sign_in  
 
 ### recommended keywords, colors and 2 results from history for user with :id
-method: get 
-path: /api/users/:id/recomendations
+method: get  
+path: /api/users/:id/recomendations  
 params:
   - page - used for results pagination; not required
 
 ### recent products from history of user with :id
-method: get 
-path: /api/users/:id/products/recent
+method: get  
+path: /api/users/:id/products/recent  
 params:
   - page - used for results pagination; not required
 
 ### search products in history of user with :id
-method: get 
-path: /api/users/:id/products/search
+method: get  
+path: /api/users/:id/products/search  
 params:
   - page - used for results pagination; not required
 
 ### add product to history of user with :id
-method: post 
-path: /api/users/:id/products
+method: post  
+path: /api/users/:id/products  
 
 ### delete product from history of user with :id
-method: delete 
-path: /api/users/:id/products
+method: delete  
+path: /api/users/:id/products  
 
 ### search products among all
-method: get 
-path: /api/products/search
+method: get  
+path: /api/products/search  
 params:
   - page - used for results pagination; not required
 
