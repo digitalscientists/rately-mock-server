@@ -10,45 +10,45 @@ Usage
 
 API
 ---
-### creates anonymous user
+### Create anonymous user
 method: get  
 path: /api/users/anonymous  
 
-### sign in user
+### Sign in user
 method: get   
 path: /api/users/sign_in  
 
-### recommended keywords, colors and 2 results from history for user with :id
+### Get recommended keywords, colors and 2 results from history for user with :id
 method: get  
 path: /api/users/:id/recomendations  
 params:
-  - page - used for results pagination; not required
+  - page - number of page. Used for results pagination. Not required
 
-### recent products from history of user with :id
+### Get recent products from history of user with :id
 method: get  
 path: /api/users/:id/products/recent  
 params:
-  - page - used for results pagination; not required
+  - page - number of page. Used for results pagination. Not required
 
-### search products in history of user with :id
+### Search products in history of user with :id
 method: get  
 path: /api/users/:id/products/search  
 params:
-  - page - used for results pagination; not required
+  - page - number of page. Used for results pagination. Not required
 
-### add product to history of user with :id
+### Add product to history of user with :id
 method: post  
 path: /api/users/:id/products  
 
-### delete product from history of user with :id
+### Delete product from history of user with :id
 method: delete  
 path: /api/users/:id/products  
 
-### search products among all
+### Search products among all
 method: get  
 path: /api/products/search  
 params:
-  - page - used for results pagination; not required
+  - page - number of page. Used for results pagination. Not required
 
 Specfiying responses
 -------------------
