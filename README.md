@@ -1,9 +1,9 @@
 Set Up
 ======
 
-After cloning enter project directory and execute command `bundle install`.
+After cloning enter project directory and execute command: `bundle install`.
 
-To start server use command `bundle exec ruby server.rb`.
+To start server use command: `bundle exec ruby server.rb`.
 
 Usage
 =====
@@ -11,8 +11,8 @@ Usage
 API
 ---
 ### creates anonymous user
-method: get 
-path: /api/users/anonymous
+> method: get 
+> path: /api/users/anonymous
 
 ### sign in user
 method: get 
