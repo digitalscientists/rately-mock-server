@@ -8,8 +8,8 @@ To start server use command: `bundle exec ruby server.rb`.
 Usage
 =====
 
-Header of each request should contain `rately_token`, by this token user of application will be identified.
-If request does not include `rately_token`, then anonymous user will be created and his `rately_token` will be returned in response header.
+Header of each request should contain `Rately-Token`, by this token user of application will be identified.
+If request does not include `Rately-Token`, then anonymous user will be created and his `Rately-Token` will be returned in response header.
 
 API
 ---

@@ -10,7 +10,6 @@ require 'json'
 puts "This is process #{Process.pid}"
 
 configure do
-  set :environment, :development
   set :logging, true
   set :dump_errors, true
   set :public_folder, Proc.new { File.expand_path(File.join(root, 'Fixtures')) }
@@ -22,6 +21,10 @@ end
 
 def page
   params[:page].nil? ? 0 : params[:page].to_i - 1 
+end
+
+before /.*/ do
+  headers "Rately-Token" => "new_auth_token" if request.env['HTTP_RATELY_TOKEN'].nil?
 end
 
 namespace '/api' do
