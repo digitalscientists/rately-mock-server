@@ -27,14 +27,9 @@ end
 namespace '/api' do
   namespace '/users' do
 
-    get '/anonymous' do
+    get '/authorize' do
       content_type 'application/json'
-      load_fixture("users_anonymous.yml").to_json
-    end
-
-    get '/sign_id' do
-      content_type 'application/json'
-      load_fixture("users_sign_in.yml").to_json
+      load_fixture("users_authorize.yml").to_json
     end
     
     get '/:id/recommendations' do
