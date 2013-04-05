@@ -4,6 +4,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/namespace'
+require 'sinatra/cookies'
 require 'yaml'
 require 'json'
 
@@ -24,7 +25,9 @@ def page
 end
 
 before /.*/ do
-  headers "Rately-Token" => "new_auth_token" if request.env['HTTP_RATELY_TOKEN'].nil?
+  if request.path_info !~ /authorize/ && (cookies[:_rately_session].nil? || cookies[:_rately_session].length == 0)
+    halt 401
+  end
 end
 
 namespace '/api' do
@@ -32,6 +35,7 @@ namespace '/api' do
 
     post '/authorize' do
       content_type 'application/json'
+      cookies[:_rately_session] = '_rately_session_key_'
       load_fixture("users_authorize.yml").to_json
     end
     
