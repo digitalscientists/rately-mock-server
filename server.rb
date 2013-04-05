@@ -30,7 +30,7 @@ end
 namespace '/api' do
   namespace '/users' do
 
-    get '/authorize' do
+    post '/authorize' do
       content_type 'application/json'
       load_fixture("users_authorize.yml").to_json
     end
