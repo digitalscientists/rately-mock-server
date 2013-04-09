@@ -69,7 +69,7 @@ namespace '/api' do
 
   end
 
-  get '/products/search' do
+  post '/products/search' do
     content_type 'application/json'
     load_fixture("products_search.yml")[page].to_json
   end
