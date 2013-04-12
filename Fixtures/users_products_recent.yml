@@ -11,11 +11,15 @@
       categories: ["Sci-Fi", "Force"]
       colors: ["#333333","#666666","#999999","#003333","#336666","#669999","#000000","#CCCCCC"]
       original_image_url: "http://starwars.com/img/explore/encyclopedia/technology_largetout.png"
-      image_variants:
-        thumb: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/thumb_technology_largetout.png"
-        small: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/small_technology_largetout.png"
-        medium: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/medium_technology_largetout.png"
-        large: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/large_technology_largetout.png"
+      cdn_image:
+        thumb:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/thumb_technology_largetout.png"
+        small:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/small_technology_largetout.png"
+        medium:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/medium_technology_largetout.png"
+        large:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/large_technology_largetout.png"
       user_id: "513f33f70ca1a116b3000002"
       owner_id: "513f33f70ca1a116b3000002"
       owner_name: "second"
@@ -41,11 +45,15 @@
       categories: ["Sci-Fi", "Force"]
       colors: ["#333333","#000000","#CCCCCC","#666666","#330033","#999999","#330000","#663333"]
       original_image_url: "http://starwars.com/img/explore/encyclopedia/groups_largetout.png"
-      image_variants:
-        thumb: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/thumb_groups_largetout.png"
-        small: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/small_groups_largetout.png"
-        medium: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/medium_groups_largetout.png"
-        large: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/large_groups_largetout.png"
+      cdn_image:
+        thumb:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/thumb_groups_largetout.png"
+        small:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/small_groups_largetout.png"
+        medium:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/medium_groups_largetout.png"
+        large:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/large_groups_largetout.png"
       user_id: "513f33f70ca1a116b3000002"
       owner_id: "513f33f70ca1a116b3000002"
       owner_name: "second"
