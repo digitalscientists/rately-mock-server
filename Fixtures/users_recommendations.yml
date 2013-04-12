@@ -346,3 +346,8 @@ colors:
         sort: null
         highlight: null
         _explanation: null
+
+pagination:
+  per_page: 10
+  total_pages: 25
+  total_objects: 250

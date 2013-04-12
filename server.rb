@@ -44,7 +44,8 @@ namespace '/api' do
       data = load_fixture("users_recommendations.yml")
       { 
         :categories => data['categories'][page],
-        :colors => data['colors'][page]
+        :colors => data['colors'][page],
+        :pagination => data['pagination']
       }.to_json
     end
 
