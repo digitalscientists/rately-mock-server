@@ -1,7 +1,6 @@
 categories:
   -
-    category: "sci-fi"
-    products:
+    "sci-fi":
       -
         type: "products"
         item_id: "51431c680ca1a10194000044"
@@ -62,8 +61,7 @@ categories:
         highlight: null
         _explanation: null
   -
-    category: "video games"
-    products:
+    "video games":
       -
         type: "products"
         item_id: "51431c680ca1a10194000044"
@@ -125,8 +123,7 @@ categories:
         _explanation: null
 colors:
   -
-    color: '#f00'
-    products:
+    '#f00':
       -
         type: "products"
         item_id: "51431c680ca1a10194000044"
@@ -187,8 +184,7 @@ colors:
         highlight: null
         _explanation: null
   -
-    color: '#0f0'
-    products:
+    '#0f0':
       -
         type: "products"
         item_id: "51431c680ca1a10194000044"
