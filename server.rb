@@ -51,12 +51,14 @@ namespace '/api' do
 
     get '/:id/products/recent' do
       content_type 'application/json'
-      load_fixture("users_products_recent.yml")[page].to_json
+      fixture = load_fixture("users_products_recent.yml")
+      {:products => fixture['products'][page], :pagination => fixture['pagination']}.to_json
     end
 
-    get '/:id/products/search' do
+    post '/:id/products/search' do
       content_type 'application/json'
-      load_fixture("users_products_search.yml")[page].to_json
+      fixture = load_fixture("users_products_search.yml")
+      {:products => fixture['products'][page], :pagination => fixture['pagination']}.to_json
     end
 
     post '/:id/products' do
@@ -71,7 +73,8 @@ namespace '/api' do
 
   post '/products/search' do
     content_type 'application/json'
-    load_fixture("products_search.yml")[page].to_json
+    fixture = load_fixture("products_search.yml")
+    {:products => fixture['products'][page], :pagination => fixture['pagination']}.to_json
   end
 
 end

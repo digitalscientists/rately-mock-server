@@ -1,5 +1,5 @@
--
-  products:
+products:
+  -
     -
       type: "products"
       item_id: "51431c680ca1a10194000044"

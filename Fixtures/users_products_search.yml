@@ -1,71 +1,72 @@
--
+products:
   -
-    type: "products"
-    item_id: "51431c680ca1a10194000044"
-    title: "Star Wars Characters, Planets, Ships and Vehicles | StarWars.com"
-    size: null,
-    brand: null,
-    manufacturer: null,
-    base_url: "http://starwars.com/explore/encyclopedia/"
-    categories: ["Sci-Fi", "Force"]
-    colors: ["#333333","#666666","#999999","#003333","#336666","#669999","#000000","#CCCCCC"]
-    original_image_url: "http://starwars.com/img/explore/encyclopedia/technology_largetout.png"
-    cdn_image:
-      thumb:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/thumb_technology_largetout.png"
-      small:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/small_technology_largetout.png"
-      medium:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/medium_technology_largetout.png"
-      large:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/large_technology_largetout.png"
-    user_id: "513f33f70ca1a116b3000002"
-    owner_id: "513f33f70ca1a116b3000002"
-    owner_name: "second"
-    owner_avatar_url: "http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&s=48"
-    created_at: "20130315T150440Z"
-    id: "yz82yP11Qp2UdPYEi9BUJg"
-    _score: 6.644365
-    _type: "products"
-    _index: "tracked_activities"
-    _version: null
-    sort: null
-    highlight: null
-    _explanation: null
+    -
+      type: "products"
+      item_id: "51431c680ca1a10194000044"
+      title: "Star Wars Characters, Planets, Ships and Vehicles | StarWars.com"
+      size: null,
+      brand: null,
+      manufacturer: null,
+      base_url: "http://starwars.com/explore/encyclopedia/"
+      categories: ["Sci-Fi", "Force"]
+      colors: ["#333333","#666666","#999999","#003333","#336666","#669999","#000000","#CCCCCC"]
+      original_image_url: "http://starwars.com/img/explore/encyclopedia/technology_largetout.png"
+      cdn_image:
+        thumb:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/thumb_technology_largetout.png"
+        small:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/small_technology_largetout.png"
+        medium:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/medium_technology_largetout.png"
+        large:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c680ca1a10194000044/large_technology_largetout.png"
+      user_id: "513f33f70ca1a116b3000002"
+      owner_id: "513f33f70ca1a116b3000002"
+      owner_name: "second"
+      owner_avatar_url: "http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&s=48"
+      created_at: "20130315T150440Z"
+      id: "yz82yP11Qp2UdPYEi9BUJg"
+      _score: 6.644365
+      _type: "products"
+      _index: "tracked_activities"
+      _version: null
+      sort: null
+      highlight: null
+      _explanation: null
 
-  -
-    type: "products"
-    item_id: "51431c9b0ca1a10194000045"
-    title: "Star Wars Characters, Planets, Ships and Vehicles | StarWars.com"
-    size: null
-    brand: null
-    manufacturer: null
-    base_url: "http://starwars.com/explore/encyclopedia/"
-    categories: ["Sci-Fi", "Force"]
-    colors: ["#333333","#000000","#CCCCCC","#666666","#330033","#999999","#330000","#663333"]
-    original_image_url: "http://starwars.com/img/explore/encyclopedia/groups_largetout.png"
-    cdn_image:
-      thumb:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/thumb_groups_largetout.png"
-      small:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/small_groups_largetout.png"
-      medium:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/medium_groups_largetout.png"
-      large:
-        url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/large_groups_largetout.png"
-    user_id: "513f33f70ca1a116b3000002"
-    owner_id: "513f33f70ca1a116b3000002"
-    owner_name: "second"
-    owner_avatar_url: "http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&s=48"
-    created_at: "20130315T150532Z"
-    id: "HU7l7-5ZQxK6pjk3hBJAWQ"
-    _score: 6.644365
-    _type: "products"
-    _index: "tracked_activities"
-    _version: null
-    sort: null
-    highlight: null
-    _explanation: null
+    -
+      type: "products"
+      item_id: "51431c9b0ca1a10194000045"
+      title: "Star Wars Characters, Planets, Ships and Vehicles | StarWars.com"
+      size: null
+      brand: null
+      manufacturer: null
+      base_url: "http://starwars.com/explore/encyclopedia/"
+      categories: ["Sci-Fi", "Force"]
+      colors: ["#333333","#000000","#CCCCCC","#666666","#330033","#999999","#330000","#663333"]
+      original_image_url: "http://starwars.com/img/explore/encyclopedia/groups_largetout.png"
+      cdn_image:
+        thumb:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/thumb_groups_largetout.png"
+        small:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/small_groups_largetout.png"
+        medium:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/medium_groups_largetout.png"
+        large:
+          url: "https://rately-product-images.s3.amazonaws.com/development/product/cdn_image/51431c9b0ca1a10194000045/large_groups_largetout.png"
+      user_id: "513f33f70ca1a116b3000002"
+      owner_id: "513f33f70ca1a116b3000002"
+      owner_name: "second"
+      owner_avatar_url: "http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?d=mm&s=48"
+      created_at: "20130315T150532Z"
+      id: "HU7l7-5ZQxK6pjk3hBJAWQ"
+      _score: 6.644365
+      _type: "products"
+      _index: "tracked_activities"
+      _version: null
+      sort: null
+      highlight: null
+      _explanation: null
 
 pagination:
   per_page: 10
