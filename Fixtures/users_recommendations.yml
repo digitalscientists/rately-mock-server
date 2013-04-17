@@ -36,14 +36,6 @@ categories:
         _explanation: null
 
       - *item
-      - *item
-      - *item
-      - *item
-      - *item
-      - *item
-      - *item
-      - *item
-      - *item
     - "video games": *list
     - "fantasy": *list
     - "music": *list
