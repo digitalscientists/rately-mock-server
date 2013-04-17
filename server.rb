@@ -43,8 +43,8 @@ namespace '/api' do
       content_type 'application/json'
       data = load_fixture("users_recommendations.yml")
       { 
-        :categories => data['categories'][page],
-        :colors => data['colors'][page],
+        :categories => data['categories'][page > 1 ? 1 : page],
+        :colors => data['colors'][page > 1 ? 1 : page],
         :pagination => data['pagination']
       }.to_json
     end
