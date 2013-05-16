@@ -51,9 +51,9 @@ params:
   - page - number of page. Used for results pagination. Not required
 
 ### Suggestions
-method: get
-path: /api/suggestions
-params:
+method: get  
+path: /api/suggestions  
+params:  
   - suggest - query string 
 
 Specfiying responses
