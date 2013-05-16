@@ -50,6 +50,12 @@ params:
   - payload JSON-formated query where key is name of field to search by and value is term that field should match
   - page - number of page. Used for results pagination. Not required
 
+### Suggestions
+method: get
+path: /api/suggestions
+params:
+  - suggest - query string 
+
 Specfiying responses
 -------------------
 
